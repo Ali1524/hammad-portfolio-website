@@ -11,8 +11,9 @@ export default function Hero() {
           <a className="btn" href="#works">View my work</a>{" "}
           <a className="btn o" href="#resume">View my resume</a>
         </div>
-        {/* To use your photo: put it in /public (for example me.jpg) and replace the line below with <img src="/me.jpg" alt={profile.name} /> */}
-        <div className="pic"><span>H</span></div>
+        <div className="pic">
+          <img src="/hammad-ahmad.png" alt={profile.name} />
+        </div>
       </div>
     </section>
   );
